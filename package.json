@@ -1,0 +1,23 @@
+{
+  "name": "lx",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "bun build ./index.ts --compile --minify --target bun --outfile lx",
+    "lx": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/keypress": "^2.0.30"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "axios": "^1.6.8",
+    "keypress": "^0.2.1",
+    "ora": "^8.0.1",
+    "picocolors": "^1.0.0"
+  }
+}
