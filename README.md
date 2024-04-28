@@ -1,6 +1,4 @@
-Here's the revised README.md:
-
-**lx: Your AI-Powered Terminal Sidekick**
+# lx: Your AI-Powered Terminal Sidekick
 =====================================
 
 Get ready to level up your terminal game with lx, the AI-driven command-line assistant that's got your back!
