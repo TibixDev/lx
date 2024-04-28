@@ -42,4 +42,4 @@ lx is licensed under the MIT License. See the LICENSE file for details.
 **Get Involved**
 ----------------
 
-Want to contribute to lx? Open a pull request with your changes and let's make this project even more awesome
+Want to contribute to lx? Open a pull request with your changes and let's make this project even more awesome!
