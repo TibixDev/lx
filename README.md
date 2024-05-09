@@ -4,6 +4,12 @@ Get ready to level up your terminal game with lx, the AI-driven command-line ass
 
 <img src="assets/demo.png">
 
+## Requirements
+
+* Bun installed on your system.
+* Ollama installed and running on your system.
+* `llama3:8b` installed via Ollama if you want to use the default model
+
 ## How it Works
 
 1. Install the dependencies with `bun install`
@@ -13,7 +19,7 @@ Get ready to level up your terminal game with lx, the AI-driven command-line ass
 4. Give it a task or prompt, like `lx fix npm permissions` or `lx install Docker`.
 5. lx will whip up a list of possible commands to get the job done.
 6. Use the arrow keys to navigate through the list, and press Enter to select a command.
-7. Type 'Y' to run the command, or 'N' to bail out.
+7. Type 'Y' to run the command, or 'N' to exit.
 
 ## Customize to Your Heart's Content
 
@@ -24,12 +30,6 @@ lx uses a config file at `~/.config/lx/lx.config.json`. Tweak it to your liking 
 * `lx conf get`: Peek at your current config.
 * `lx conf reset`: Reset to default settings.
 * `lx conf set <key> <value>`: Update a specific config key.
-
-## Requirements
-
-* Bun installed on your system.
-* Ollama installed and running on your system.
-* Install the required packages with `bun install`.
 
 ## License
 
